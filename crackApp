@@ -1,4 +1,4 @@
-hostname = *.xiaoxiao*.com, vip1.kuwo.cn, pan.baidu.com, mp.weixin.qq.com, app.bilibili.com, *.amemv.com, *.snssdk.com, 
+hostname = *.xiaoxiao*.com, vip1.kuwo.cn, pan.baidu.com, mp.weixin.qq.com, app.bilibili.com,
 
 #xxys
 https:\/\/.*\.xiaoxiao.*\.com\/(vod\/reqplay\/|ucp/index|getGlobalData) url script-response-body xxys.js
@@ -16,6 +16,3 @@ https:\/\/pan\.baidu\.com\/rest\/2\.0\/membership\/user url script-response-body
 
 #哔哩哔哩排行榜前十
 ^https:\/\/app\.bilibili\.com\/x\/v2\/space\?access_key url script-response-body bilibili_space_qx.js
-
-#amemv
-^https://aweme-eagle(.*)\.snssdk\.com/aweme/v2/ https://aweme-eagle$1.snssdk.com/aweme/v1/ 302
