@@ -1,4 +1,4 @@
-user-agent, NeteaseMusic**, UnblockNeteaseMusic
+user-agent, NeteaseMusic**, UnblockNeteaseMusic 
 user-agent, NeteaseMusic*, UnblockNeteaseMusic
 host-suffix, music.163.com, UnblockNeteaseMusic
 host-suffix, music.126.net, UnblockNeteaseMusic
