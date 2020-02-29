@@ -1,6 +1,5 @@
 /*using surge cron*/
 
-
 const region = "vn"
 const appIds = ["1312014438", "1423330822", "1085978097"]
 
