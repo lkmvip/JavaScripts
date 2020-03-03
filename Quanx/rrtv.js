@@ -1,3 +1,13 @@
+/*
+
+QX:
+
+^https?:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll) url script-response-body rrtv.js
+
+MITM = api.rr.tv
+
+*/
+
 var body = $response.body;
 
 var url = $request.url;
