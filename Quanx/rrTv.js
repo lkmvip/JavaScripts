@@ -6,7 +6,7 @@ QX:
 
 Surge4：
 
-http-response ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/HopeTF/JavaScripts/master/Quanx/rrTv.js
+http-response ^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/HopeTF/JavaScripts/master/Quanx/rrTv.js
 
 MITM = api.rr.tv
 
