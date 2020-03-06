@@ -2,7 +2,7 @@
 
 QX:
 
-^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body rrTv.js
+^https:\/\/api\.rr\.tv(\/user\/privilege\/list|\/ad\/getAll|\/rrtv-video\/v4plus\/season\/detail) url script-response-body https://raw.githubusercontent.com/HopeTF/JavaScripts/master/Quanx/rrTv.js
 
 Surge4：
 
