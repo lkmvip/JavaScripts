@@ -1,3 +1,12 @@
+/*
+#第一弹 去广告+原画 (By Miao Miao)
+
+^https:\/\/api\.diyidan\.net\/v0\.3\/(user\/personal_homepage|vip_user\/info|tv_series\/index\?appChanne) url script-response-body https://raw.githubusercontent.com/HopeTF/JavaScripts/master/JS/diyidan.js
+
+# 修复下载视频清晰度
+
+(http://musicapi\.diyidan\.net/tv_series/video/download/\d+)/(1|2) url 302 $1/4
+*/
 let url = $request.url;
 
 const path1 = "user/personal_homepage";
