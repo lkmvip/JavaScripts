@@ -1,7 +1,3 @@
-/*
-README：https://github.com/yichahucha/surge/tree/master
- */
-
 const path1 = "serverConfig";
 const path2 = "wareBusiness";
 const consolelog = false;
