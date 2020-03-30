@@ -1,7 +1,3 @@
-/*
-README：https://github.com/yichahucha/surge/tree/master
- */
-
 const $tool = new Tool()
 const consoleLog = false
 const url = $request.url
