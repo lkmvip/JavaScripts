@@ -20,7 +20,7 @@ var accounts = [
 function launch() {
     for (var i in accounts) {
         let name = accounts[i][0]
-        let super_id = accounts[i][5]
+        let super_id = accounts[i][6]
         weibo_super(name, super_id)
     }
     //$done();
