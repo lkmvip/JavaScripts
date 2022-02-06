@@ -8,7 +8,7 @@ IPA 文件安装器
 */
 
 var port_number = 80
-var plist_url = "itms-services://?action=download-manifest&url=https://gitee.com/suisr/PlistServer/raw/master/universal_jsbox.plist"
+var plist_url = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/lkmvip/JavaScripts/Pv/universal_jsbox.plist"
 
 // 从应用内启动
 if ($app.env == $env.app) {
