@@ -7,7 +7,7 @@ IPA 文件安装器
 作者联系：https://t.me/axel_burks
 */
 
-var port_number = 80
+var port_number = 8080
 var plist_url = "itms-services://?action=download-manifest&url=https://raw.githubusercontent.com/lkmvip/JavaScripts/Pv/universal_jsbox.plist"
 
 // 从应用内启动
